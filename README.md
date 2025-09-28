@@ -6,13 +6,13 @@
 
 # Команда проекта
 
-| ФИО | никнеймы в Telegram | никнеймы в GitHub/GitLab |
-|------|-----|----------|
-| Давыдов Алксандр | @iskander_19_90 | AlexandrD1990 |
-| [ФИО] | @helenBg | [GitHub] |
-| [ФИО] | @ganbei | [GitHub] |
-| [ФИО] | @llunapark | llunapark |
-| [ФИО] | @KokovaPolina | [GitHub] |
+| ФИО              | никнеймы в Telegram | никнеймы в GitHub/GitLab |
+|------------------|-----|--------------------------|
+| Давыдов Алксандр | @iskander_19_90 | AlexandrD1990            |
+| Чмутенко Елена   | @helenBg | LinkiChmu                |
+| [ФИО]            | @ganbei | notglebatal                 |
+| [ФИО]            | @llunapark | llunapark                |
+| [ФИО]            | @KokovaPolina | KPD239                 |
 
 # Куратор проекта
 
