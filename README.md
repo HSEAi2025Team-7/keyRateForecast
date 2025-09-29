@@ -10,7 +10,7 @@
 |------|-----|----------|
 | Давыдов Алксандр | @iskander_19_90 | AlexandrD1990 |
 | [ФИО] | @helenBg | [GitHub] |
-| [ФИО] | @ganbei | [GitHub] |
+| Фадеев Глеб Сергеевич | @ganbei | notglebatall |
 | [ФИО] | @llunapark | llunapark |
 | [ФИО] | @KokovaPolina | [GitHub] |
 
