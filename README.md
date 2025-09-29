@@ -10,7 +10,7 @@
 |------------------|-----|--------------------------|
 | Давыдов Алксандр | @iskander_19_90 | AlexandrD1990            |
 | Чмутенко Елена   | @helenBg | LinkiChmu                |
-| [ФИО]            | @ganbei | notglebatal                 |
+| Фадеев Глеб            | @ganbei | notglebatall                 |
 | [ФИО]            | @llunapark | llunapark                |
 | [ФИО]            | @KokovaPolina | KPD239                 |
 
