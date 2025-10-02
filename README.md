@@ -9,10 +9,8 @@
 | ФИО              | никнеймы в Telegram | никнеймы в GitHub/GitLab |
 |------------------|-----|--------------------------|
 | Давыдов Алксандр | @iskander_19_90 | AlexandrD1990            |
-| Чмутенко Елена   | @helenBg | LinkiChmu                |
-| Фадеев Глеб            | @ganbei | notglebatall                 |
-| [ФИО]            | @llunapark | llunapark                |
-| [ФИО]            | @KokovaPolina | KPD239                 |
+| Гусева Елизавета         | @llunapark | llunapark                |
+| Кокова Полина         | @KokovaPolina | KPD239                 |
 
 # Куратор проекта
 
