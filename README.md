@@ -85,7 +85,7 @@
 
 ## 8. Структура проекта  
 
-![Project Structure]
+![Project Structure](docs/structure.png)
 
 ---
 
@@ -126,5 +126,4 @@
   git checkout -b feature/<название-фичи>
   git push origin feature/<название-фичи>
 
-![Project Structure](docs/structure.png)
 ![CI/CD Flow](docs/cicd.png)
