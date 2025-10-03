@@ -125,5 +125,3 @@
   git checkout dev
   git checkout -b feature/<название-фичи>
   git push origin feature/<название-фичи>
-
-![CI/CD Flow](docs/cicd.png)
