@@ -1,0 +1,11 @@
+pandas
+numpy
+requests
+beautifulsoup4
+lxml
+tqdm
+regex
+nltk
+razdel
+pymorphy3
+pymorphy3-dicts-ru
