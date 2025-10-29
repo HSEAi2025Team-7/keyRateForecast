@@ -29,7 +29,7 @@
 ## Инструменты  
 - **Python**  
 - **Jupyter Notebook**  
-- Библиотеки: `pandas`, `numpy`,'requests','BeautifulSoup','spacy','re'
+- Библиотеки: `pandas`, `numpy`,`requests`,`BeautifulSoup`,`spacy`,`re`
 ---
 ## План работы
 
