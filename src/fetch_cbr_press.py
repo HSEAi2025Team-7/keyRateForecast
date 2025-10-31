@@ -7,6 +7,64 @@
 Файлы: data/raw/cbr_press/YYYY-MM-DD_<hash>.json
 """
 
+import time
+import httpx
+from bs4 import BeautifulSoup
+import csv
+import requests
+
+
+def get_press():
+    base_url = "https://www.cbr.ru"
+    ajax_url = "https://www.cbr.ru/Crosscut/NewsList/LoadMore/84035?intOffset=0&extOffset="
+    links, seen = [], set()
+    offset = 0
+
+    while True:
+        r = httpx.get(f"{ajax_url}{offset}", timeout=20, follow_redirects=True)
+        html = r.text.strip()
+        if not html:
+            break
+
+        soup = BeautifulSoup(html, "html.parser")
+        for a in soup.select('a[href^="/press/pr/?file="]'):
+            href = base_url + a["href"]
+            if href not in seen:
+                seen.add(href)
+                links.append(href)
+
+        print(f"Собрано ссылок - {offset}")
+        offset += 1
+        time.sleep(0.2)
+
+    with open("cbr_press_releases.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(links))
+
+    print("Готово")
+
+
+get_press()
+
+with open('cbr_press_releases.txt', 'r', encoding='utf-8') as f:
+    link = f.readlines()
+l = []
+for i in link:
+    if '\n' in i:
+        l.append(i[:-1])
+
+with open('cbr_key-rate_press_releases.csv', 'w', encoding='utf-8') as file:
+    writer = csv.writer(file)
+    writer.writerow(['date', 'title', 'text', 'url']) # делаем таблицу с данными
+    for i in l: # добавляем по каждой ссылке данные в таблицу
+        response = requests.get(i)
+        soup = BeautifulSoup(response.text, "lxml")
+        text = soup.find('div', {'class': 'landing-text'}).text
+        title = soup.find('h1').text
+        date = soup.find('div', {'class': 'col-md-6 col-12 news-info-line_date'}).text
+        writer.writerow([date, title, text, i])
+
+
+
 import os, re, time, json, hashlib
 from urllib.parse import urljoin, urldefrag, urlparse
 import requests
