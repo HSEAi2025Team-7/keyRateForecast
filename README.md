@@ -29,7 +29,7 @@
 ## Инструменты  
 - **Python**  
 - **Jupyter Notebook**  
-- Библиотеки: `pandas`, `numpy`,`requests`,`BeautifulSoup`,`spacy`,`re`
+- Библиотеки: `requests`,`BeautifulSoup`,`spacy`,`re`
 ---
 ## План работы
 
@@ -102,7 +102,8 @@ SVM - разделяет тексты на группы с четкими гра
 - `main` — только рабочие версии.  
 - `dev` — общая ветка для разработки.
 - `Alex` - ветка разработчика
-- `Polina` - ветка разработчика  
+- `Polina` - ветка разработчика
+- `Liza` - ветка разработчика 
 - Для новых задач:  
   ```bash
   git checkout dev
