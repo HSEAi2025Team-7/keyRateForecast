@@ -113,7 +113,8 @@ async def forward(
 
     # иначе — ждём JSON
     else:
-        if not request.headers.get("content-type") == "application/json":
+        content_type = request.headers.get("content-type", "")
+        if "json" not in content_type.lower():
             raise HTTPException(status_code=400, detail="bad request")
 
         try:
