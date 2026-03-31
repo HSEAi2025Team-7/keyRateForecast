@@ -1,0 +1,5 @@
+model,f1_macro
+CountVectorizer(1gramm) + LogisticRegression,0.7163382594417076
+CountVectorizer(1-3gramm) + LogisticRegression,0.6277777777777778
+TfidfVectorizer(1gramm) + LogisticRegression,0.8042328042328042
+TfidfVectorizer(1-3gramm) + LogisticRegression,0.5913978494623656
